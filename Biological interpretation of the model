@@ -1,4 +1,32 @@
 
 Your voice can talks before you do.
 
-Inputs taken
+MFCC (Mel-Frequency Cepstral Coefficients): MFCCs are a compact representation of the spectral envelope of the sound. They model how humans perceive pitch and timbre, based on the Mel scale, which is more sensitive to low frequencies (where human ears are more sensitive).
+As we age, vocal fold tension, mass, and elasticity change, affecting the harmonic content of speech.
+MFCCs capture formant frequencies and energy distribution that reflect these changes.
+
+Pitch / Fundamental Frequency: The average rate at which the vocal folds vibrate.
+Children: high pitch (thin vocal folds).
+Adults: lower pitch (thicker vocal folds).
+Older adults: pitch may rise again due to muscle atrophy or loss of vocal fold tension.
+
+RMS Energy: Root-mean-square amplitude — essentially, loudness.
+Age affects lung capacity, subglottal pressure, and control over vocal fold vibration, which changes energy in voice.
+
+Jitter: cycle-to-cycle variability in pitch.
+Healthy vocal folds vibrate regularly.
+Aging can cause irregular vibration, increasing jitter.
+Higher jitter = less stable voice.
+
+Shimmer: Cycle-to-cycle variability in amplitude.
+Reflects airflow and vocal fold closure irregularities.
+Increased shimmer often occurs with aging or vocal fold degeneration.
+
+HNR (Harmonics-to-Noise Ratio): Ratio of harmonic (periodic) vs. noise (aperiodic) energy in the voice.
+Young, healthy voices are mostly harmonic (clear).
+Aging or vocal pathology introduces more noise → lower HNR.
+
+Formants (F1, F2, F3): Resonant frequencies of the vocal tract.
+Determined by vocal tract length, tongue position, and mouth shape.
+F1, F2, F3 correlate with vowel quality.
+With age: vocal tract lengthens slightly, muscle tone decreases → subtle shifts in formant frequencies.
